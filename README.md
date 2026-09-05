@@ -1,4 +1,4 @@
-<img width="1898" height="935" alt="Screenshot 2026-09-05 002201" src="https://github.com/user-attachments/assets/dd9b36d4-6e7c-4f17-93f1-ec86eaa5b9fa" />
+<img width="1919" height="954" alt="image" src="https://github.com/user-attachments/assets/99e891bf-7dab-4df1-9291-2d2b98e4dea3" />
 FreeGuard V3.0.0 - Latest
 
 **AI-powered Discord moderation bot + web dashboard.**
