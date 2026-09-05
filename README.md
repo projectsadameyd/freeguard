@@ -1,4 +1,5 @@
-# free-Guard
+<img width="1898" height="935" alt="Screenshot 2026-09-05 002201" src="https://github.com/user-attachments/assets/dd9b36d4-6e7c-4f17-93f1-ec86eaa5b9fa" />
+FreeGuard V3.0.0 - Latest
 
 **AI-powered Discord moderation bot + web dashboard.**
 
