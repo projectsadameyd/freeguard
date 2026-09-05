@@ -256,8 +256,7 @@ a cloud function, or Replit.
 
 ## Credits & license
 
-- **Author & maintainer:** Adam Eyd.
-- **Engineering:** the EchoBastion Group team.
+- **Author & Creator:** Adam Eyd.
 - Built on Discord.js, Express, and @discordjs/voice.
 
 Licensed under the [MIT License](LICENSE). © 2026 Adam Eyd.
