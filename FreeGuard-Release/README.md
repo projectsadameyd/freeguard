@@ -1,3 +1,4 @@
+<img width="1917" height="948" alt="image" src="https://github.com/user-attachments/assets/74d2f995-236f-4619-854c-5b217ac8bdb3" />
 # free-Guard
 
 **AI-powered Discord moderation bot + web dashboard.**
