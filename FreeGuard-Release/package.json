@@ -1,0 +1,43 @@
+{
+  "name": "usccb-freeguard",
+  "version": "2.1.0",
+  "description": "free-Guard — AI-powered Discord moderation bot + web dashboard by Adam Eyd",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "keepalive": "node keepalive.js",
+    "logs": "node readlog.js",
+    "logs:files": "node readlog.js --files",
+    "dashboard": "node dashboard-server.js",
+    "check": "node --check index.js && node --check dashboard-server.js && node --check src/moderator.js",
+    "health": "curl -s http://localhost:3000/health | node -e \"process.stdin.pipe(process.stdout)\""
+  },
+  "keywords": [
+    "discord",
+    "moderation",
+    "ai",
+    "voice",
+    "nsfw",
+    "freeguard",
+    "dashboard"
+  ],
+  "author": "Adam Eyd (EchoBastion Group)",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/voice": "^0.18.0",
+    "cors": "^2.8.6",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.22.2",
+    "opusscript": "^0.1.1",
+    "tweetnacl": "^1.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adameyd/free-guard"
+  }
+}
