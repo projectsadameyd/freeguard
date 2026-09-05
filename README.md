@@ -6,13 +6,13 @@
 
 ## Overview
 
-free-Guard is an enterprise-grade AI moderation bot for Discord that moderates **text, images, and voice chat** in real time. Text is analysed by `echobastion/lumen-7b-instruct-v1:free` via EchoBastionAI, images are screened by a Hugging Face NSFW-detection model, and voice channels are transcribed on the fly with Whisper and run through the same moderation pipeline. Every violation is deleted, strikes are logged, and all stored user data is encrypted with **AES-256-GCM**.
+free-Guard is an enterprise-grade AI moderation bot for Discord that moderates **text, images, and voice chat** in real time. Text is analysed by `google/gemma-4-31b-it:free` via OpenrouterAI, images are screened by a Hugging Face NSFW-detection model, and voice channels are transcribed on the fly with Whisper and run through the same moderation pipeline. Every violation is deleted, strikes are logged, and all stored user data is encrypted with **AES-256-GCM**.
 
 ---
 
 ## Features
 
-- 🤖 **AI text moderation** via EchoBastionAI (`echobastion/lumen-7b-instruct-v1:free`), backed by a regex hard-block list for instant, zero-latency catches
+- 🤖 **AI text moderation** via OpenrouterAI (`google/gemma-4-31b-it:free`), backed by a regex hard-block list for instant, zero-latency catches
 - 🖼️ **Image moderation** — attachments are screened by Hugging Face's `Falconsai/nsfw_image_detection` model (free tier, no card required); anything ≥70% NSFW confidence is removed
 - 🎙️ **Voice channel moderation** — the bot auto-joins monitored voice channels, records speech per-user (Opus → PCM → WAV), transcribes it with `openai/whisper-large-v3` via Hugging Face, and runs the transcript through the same AI moderation engine; violations trigger a voice disconnect or ban
 - ⚡ **Instant removal** of violating messages (no delay)
