@@ -3,7 +3,7 @@
 
 **AI-powered Discord moderation bot + web dashboard.**
 
-> Maintained by **Adam Eyd** — with the EchoBastion Group engineering team.
+> Maintained by **Adam Eyd**
 
 free-Guard moderates text, images, reactions and voice in real time using free
 AI models, tracks strikes, auto-bans repeat offenders, runs a full **appeal**
@@ -257,8 +257,7 @@ a cloud function, or Replit.
 
 ## Credits & license
 
-- **Author & maintainer:** Adam Eyd.
-- **Engineering:** the EchoBastion Group team.
+- **Author & Creator:** Adam Eyd.
 - Built on Discord.js, Express, and @discordjs/voice.
 
 Licensed under the [MIT License](LICENSE). © 2026 Adam Eyd.
